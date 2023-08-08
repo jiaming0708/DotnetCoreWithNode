@@ -25,4 +25,4 @@ jobs:
         context: .
         file: ./dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/dotnetcoreWithNode:7.0
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/dotnetcore-node:7.0
